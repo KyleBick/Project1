@@ -1,0 +1,39 @@
+.newstron{
+    background-color: grey;
+}
+
+.fa-newspaper-o{
+    color: White;
+}
+
+.tarticles{
+    color: white;
+}
+
+.page-footer {
+    background-color: white;
+    margin-top:12%;
+    border-top: solid grey 3px;
+}
+
+.footer-head{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.footer-p{
+    margin-left: 20%;
+}
+
+.form-group{
+    margin-left: 20%;
+}
+
+.follow{
+    margin-top: 6%;
+}
+
+.footer-hr{
+    margin-left:20%;
+}
+

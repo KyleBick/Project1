@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+        <div class="container">
+
+                <!-- Jumbotron for Title -->
+                <div class="jumbotron newstron">
+                  <h1 class="text-center">
+                    <strong class="tarticles">
+                      <i class="fa fa-newspaper-o  "></i>   Trending Articles
+                    </strong>
+                  </h1>
+                </div>
+            
+                <!-- Row for Searching New York Times -->
+                <div class="row">
+                  <div class="col-sm-12">
+                    <br>
+                    <!-- First card is for handling the search parameters -->
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>
+                          <i class="fa fa-list-alt"></i> Search</strong>
+                      </div>
+                      <div class="card-body">
+            
+                        <!-- Here we create an HTML Form for handling the inputs-->
+                        <form role="form">
+            
+                          <!-- Here we create the text box for capturing the search term-->
+                          <div class="form-group">
+                            <label for="search">Search Term:</label>
+                            <input type="text" class="form-control" id="search-term">
+                          </div>
+            
+                          <button type="submit" class="btn btn-default" id="run-search">
+                            <i class="fa fa-search"></i> Search</button>
+                          <button class="btn btn-default" id="clear-all">
+                            <i class="fa fa-trash"></i> Clear Results</button>
+            
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- This row will handle all of the retrieved articles -->
+                <div class="row">
+                  <div class="col-sm-12">
+                    <br>
+            
+                    <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
+                    <div class="card">
+            
+                      <!-- card Heading for the retrieved articles box -->
+                      <div class="card-header">
+                        <strong>
+                          <i class="fa fa-table"></i> Top Articles</strong>
+                      </div>
+            
+                      <!-- This main card will hold each of the resulting articles -->
+                      <div class="card-body" id="article-section">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            <footer class="page-footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-7 footer-content">
+                                <h4 class="footer-head">Sign Up for our weekly News Letters!</h4>
+            <hr class="footer-hr">
+                                <p class="footer-p">Get exclusive updates and our predictions by signing up for our weekly news letter!</p>
+                                <form class="form-inline">
+                                        <div class="form-group mb-2">
+                                          <label for="inputEmail2" class="sr-only">User Name</label>
+                                          <input type="text"  class="form-control" id="inputEmail2" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group mx-sm-3 mb-2">
+                                          <label for="inputPassword2" class="sr-only">Email</label>
+                                          <input type="email" class="form-control" id="inputPassword2" placeholder="Email">
+                                        </div>
+                                        <button type="submit" class="btn btn2 btn-primary mb-2">Subscribe</button>
+                                      </form>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-5 media">
+                                <h3 class="follow">Join the community</h3>
+                                    <a href="#" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-instagram"></a>
+                            </div>
+                        </div>
+                    <div class="footer-copyright text-center py-3">© 2018 Copyright: Crypto Name Something
+                    </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+            </body>    
