@@ -13,22 +13,9 @@ body {
   background-size: cover;
 }
 
-/* .searchBar {
-  margin-left: 90%;
-} */
-
 .fa-bitcoin {
   size: 500px;;
 }
-
-/* .navbar {
-  background-color: yellow;
-  
-}
-
-.nav-item {
-  color: white;
-} */
 
 .fab {
   color: rgb(207, 188, 12);
@@ -38,6 +25,7 @@ body {
   background: white;
   outline: black;
   color: black;
+  border: black 1px solid;
 }
 
 .searchBtn:hover {
@@ -51,17 +39,11 @@ background: grey;
 
 .logIn {
   text-align: center;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Anton', sans-serif;
   color: black;
 
 }
 
-.signincontainer {
-
-  padding: 50px;
-
-
-}
 
 .form-text {
   font-size: 12px;
@@ -82,5 +64,54 @@ background: grey;
 }
 
 .fab {
+  color: rgb(219, 198, 8);
+}
+
+footer {
+  clear: both;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 40px;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  background-color: black;
   color: white;
+
+}
+
+.page-footer {
+  clear: both;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 40px;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  background-color: black;
+  color: white;
+
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text {
+  color: white;
+  font-family: 'Anton', sans-serif;
+
+}
+
+
+.welcome {
+color: white;
+font-size: 50px;
+font-family: 'Anton', sans-serif;
+text-align: center;
+
 }

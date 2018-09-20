@@ -1,0 +1,129 @@
+body {
+    background: rgb(59, 59, 58);
+   
+   }
+   
+   .jumbotron {
+    background-image: url(../images/main.jpg);
+    height: 300px;
+    background-image:;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   
+   /* .searchBar {
+    margin-left: 90%;
+   } */
+   
+   .fa-bitcoin {
+    size: 500px;;
+   }
+   
+   /* .navbar {
+    background-color: yellow;
+   
+   }
+   
+   .nav-item {
+    color: white;
+   } */
+   
+   .fab {
+    color: rgb(207, 188, 12);
+   }
+   
+   .searchBtn {
+    background: white;
+    outline: black;
+    color: black;
+   }
+   
+   .searchBtn:hover {
+   background: grey;
+   }
+   
+   .Emailbtn {
+    background: white;
+    color: black;
+    
+   }
+   
+   .logIn {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    margin-top: 10%;
+   
+   }
+   
+   .signincontainer {
+   
+    padding: 50px;
+   
+   
+   }
+   
+   .form-text {
+    font-size: 12px;
+   
+   }
+   
+   .whole {
+    background: lightgray;
+    opacity: .7;
+   }
+   
+   .form-control {
+    background: white;
+   }
+   
+   #emailHelp {
+    color: black;
+   }
+   
+   .fab {
+    color: white;
+   }
+
+
+.newstron{
+    background-color: grey;
+}
+
+.fa-newspaper-o{
+    color: White;
+}
+
+.tarticles{
+    color: white;
+}
+
+.page-footer {
+    background-color: white;
+    margin-top:12%;
+    border-top: solid grey 3px;
+}
+
+.footer-head{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.footer-p{
+    margin-left: 20%;
+}
+
+.form-group{
+    margin-left: 20%;
+}
+
+.follow{
+    margin-top: 6%;
+}
+
+.footer-hr{
+    margin-left:20%;
+}
+
