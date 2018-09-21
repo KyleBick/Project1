@@ -1,5 +1,5 @@
 body {
-    background: rgb(59, 59, 58);
+    background: white;
    
    }
    
@@ -21,14 +21,21 @@ body {
     size: 500px;;
    }
    
-   /* .navbar {
-    background-color: yellow;
-   
+    .navbar {
+    background-color: rgb(182, 179, 179);
+    border-bottom: solid 3px gold;
    }
    
+   
+
    .nav-item {
     color: white;
-   } */
+   } 
+
+   .nav-link {
+       color: gold;
+       font-size: 1.5em;
+   }
    
    .fab {
     color: rgb(207, 188, 12);
@@ -101,11 +108,23 @@ body {
 }
 
 .page-footer {
-    background-color: white;
+    background-color:  rgb(182, 179, 179);
     margin-top:12%;
-    border-top: solid grey 3px;
+    border-top: solid gold 3px;
 }
 
+.footerd{
+    margin-top: 11%;
+}
+
+.donateb{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.footerp{
+    margin-top: 10%;
+    margin-left: 5%; 
+}
 .footer-head{
     margin-top: 2%;
     margin-left: 20%;
@@ -115,7 +134,7 @@ body {
     margin-left: 20%;
 }
 
-.form-group{
+.formfooter{
     margin-left: 20%;
 }
 
