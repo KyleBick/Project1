@@ -71,6 +71,13 @@ $("#run-search").on("click", function (event)
   searchArticles(searchTerm);
 })
 
+$("#clear-button").on("click", function(event){
+event.preventDefault();
+
+$("#article-section").empty();
+
+})
+
 
 searchArticles(searchTerm);
 
