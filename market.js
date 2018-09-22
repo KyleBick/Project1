@@ -1,6 +1,5 @@
 
-
-  var queryURL = "https://api.coinmarketcap.com/v2/ticker/?start=101&limit=10&sort=id&structure=array&convert&USD";
+var queryURL = "https://api.coinmarketcap.com/v2/ticker/?start=101&limit=10&sort=id&structure=array&convert&USD";
   
   $.ajax({
     url: queryURL,
@@ -8,7 +7,7 @@
   }) .then(function(response) {
     console.log(response.data);
 
-    for(var i =0; i < 4; i++) {
+    for(var i =0; i < 20; i++) {
       
       console.log(response.data[i]);
       var content = $("<p>").html("<span class='bold'>TITLE:</span> " + response.data[i].name);
