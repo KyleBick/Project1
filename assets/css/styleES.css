@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(201, 201, 110);
+  /* background-image: url("../images/bitlogo.jpg"); */
+  background-size: cover;
+ 
+ }
+ .fa-bitcoin {
+  size: 500px;;
+ }
+
+
+
+.jumbotron {
+  /* background-image: url("../images/bitlogo.jpg"); */
+  background-color: goldenrod;
+  height: 300px;
+  background-image: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+ }
+
+ /* .fab {
+  color: rgb(207, 188, 12);
+ } */
+ 
+ .searchBtn {
+  background: white;
+  outline: blue;
+  color: blue;
+ }
+ 
+ .searchBtn:hover {
+ background: yellow;
+ }
+ 
+ 
+ 
