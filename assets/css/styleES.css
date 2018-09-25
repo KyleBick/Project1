@@ -1,6 +1,5 @@
 body {
   background-color: rgb(201, 201, 110);
-  /* background-image: url("../images/bitlogo.jpg"); */
   background-size: cover;
  
  }
@@ -11,7 +10,7 @@ body {
 
 
 .jumbotron {
-  /* background-image: url("../images/bitlogo.jpg"); */
+
   background-color: goldenrod;
   height: 300px;
   background-image: 100%;
@@ -23,9 +22,6 @@ body {
   
  }
 
- /* .fab {
-  color: rgb(207, 188, 12);
- } */
  
  .searchBtn {
   background: white;
@@ -36,6 +32,65 @@ body {
  .searchBtn:hover {
  background: yellow;
  }
+
+ /* pagination start-CSS*/
+ .pager {
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
+ .page-numbers {
+  border: 1px solid #CCCCCC;
+  color: #808185;
+  display: block;
+  float: left;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 130%;
+  margin-right: 3px;
+  padding: 4px 4px 3px;
+  text-decoration: none;
+ }
+ .page-numbers.desc {
+  border: medium none;
+ }
+ .page-numbers:hover {
+  text-decoration: none;
+ }
+ .pager a {
+  color: #808185;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+ }
+ .pager a:hover {
+  text-decoration: underline;
+ }
+ .pager a:visited {
+  color: #808185;
+  outline: none;
+ }
+ .page-numbers.next,
+ .page-numbers.prev {
+  border: 1px solid #CCCCCC;
+ }
+ .page-numbers.current {
+  background-color: #808185;
+  border: 1px solid #808185;
+  color: #FFFFFF;
+  font-weight: bold;
+ }
+ .page-numbers.dots {
+  border: 1px solid #FFFFFF;
+ }
  
- 
+ .pagination > li > a {
+   position: relative;
+   display: block;
+   padding: .5rem .75rem;
+   margin-left: -1px;
+   line-height: 1.25;
+   /* color: #007bff; */
+   background-color: white;
+   border: 1px solid #dee2e6;
+ }
+ /* pagination end-CSS*/
  
