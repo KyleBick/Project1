@@ -1,6 +1,6 @@
 var APIkey = "85e3326d774b48709fa1cfca9da1f9f9"
 var APIresponse;
-var searchTerm = 'bitcoin';
+var searchTerm = '';
 var queryURL = "https://newsapi.org/v2/everything?sources=crypto-coins-news&apiKey=" + APIkey + "&q=";
 
   
@@ -15,7 +15,11 @@ function searchArticles(searchTerm){
 
      writeArticlestoPage ();
     
-  });
+  })
+  .fail(function(res){
+    console.log(res)
+    $("#article-section").append("No results found!")
+  })
 
   }
 
