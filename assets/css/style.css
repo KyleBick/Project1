@@ -1,10 +1,11 @@
 body {
     background: white;
-   
+    position: relative;
+    min-height: 100%;
    }
    
    .jumbotron {
-    background-image: url(../images/main.jpg);
+    background-image: url(../images/computer.jpg);
     height: 300px;
     background-image:;
     background-size: cover;
@@ -22,7 +23,7 @@ body {
    }
    
     .navbar {
-    background-color: rgb(182, 179, 179);
+    background-color: rgb(185, 185, 185);
     border-bottom: solid 3px gold;
    }
    
@@ -108,9 +109,15 @@ body {
 }
 
 .page-footer {
-    background-color:  rgb(182, 179, 179);
+    background-color:  rgb(185, 185, 185);
     margin-top:12%;
     border-top: solid gold 3px;
+    position: absolute; 
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+    
+
 }
 
 .footerd{
@@ -146,3 +153,16 @@ body {
     margin-left:20%;
 }
 
+.card {
+    margin: 5px;
+}
+
+.profpic{
+    height: 550px;
+}
+
+#articleshead{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(5, 5, 5);
+}
